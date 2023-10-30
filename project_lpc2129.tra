@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'project_lpc2129.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "main.o" --strict --scatter "project_lpc2129.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\project_lpc2129.map" -o "project_lpc2129.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'project_lpc2129.axf'
+### ADS-LD Command File: 'project_lpc2129.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'project_lpc2129.lnp', Handle=0x00000D3C
+### Writing '.lnp' file
+### ADS-LD Command file 'project_lpc2129.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

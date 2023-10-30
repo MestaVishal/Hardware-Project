@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "main.o" --strict --scatter "project_lpc2129.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\project_lpc2129.map" -o "project_lpc2129.axf"
